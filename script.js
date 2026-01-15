@@ -175,7 +175,7 @@ function updateHistoricalLayer(city, year) {
     }
 
     // Construct the tile URL path (Corrected structure: maps/tiles/FOLDER_NAME/Z/X/Y.png)
-    const tileUrl = `maps/tiles/${folder}/{z}/{x}/{y}.png`;
+    const tileUrl = `tiles/${folder}/{z}/{x}/{y}.png`;
 
     if (histLayer) {
         // If layer exists, just update the URL (Leaflet will reload the tiles)
