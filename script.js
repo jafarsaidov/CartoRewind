@@ -27,7 +27,7 @@ const TILE_FOLDER_MAP = {
     },
     'dresden': {
         '1750': 'dre-1750-folder',
-        '1833': 'd_1833',
+        '1833': 'dresden/d_1833',
         '1878': 'dre-1878-folder',
     },
     'enschede': {
