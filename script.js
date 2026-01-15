@@ -16,23 +16,22 @@ const centerCoords = {
 // Set the value to null if the map tiles for that year/city are missing.
 const TILE_FOLDER_MAP = {
     'munich': {
-        '1400': null,
-        '1500': null,
-        '1600': null,
-        '1888': 'muc-1888'
+        '1500': 'munich/muc-1700',
+        '1600': 'munich/muc-1888',
+        '1888': 'munich/muc-1900',
     },
     'vienna': {
-        '1800': 'vie-1800-folder',
-        '1833': 'v_1833',
+        '1800': 'vienna/v_1833',
+        '1833': 'vienna/v_1900',
     },
     'dresden': {
-        '1750': 'dre-1750-folder',
+        '1750': 'dresden/d_1700',
         '1833': 'dresden/d_1833',
-        '1878': 'dre-1878-folder',
+        '1878': 'dresden/d_1900',
     },
     'enschede': {
-        '1830': 'ens-1830-folder',
-        '1900': 'ens-1900-folder',
+        '1830': 'enschede/e_1800',
+        '1900': 'enschede/e_1900',
     },
 };
 
